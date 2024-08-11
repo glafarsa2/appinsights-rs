@@ -48,7 +48,7 @@ test-case = "1.2"
 env_logger = "0.9"
 lazy_static = "1.4"
 matches = "0.1"
-hyper = { version = "0.14", features = ["server"], default-features = false }
+hyper = { version = "1.1", features = ["server"], default-features = false }
 tokio = { version = "1.10", features = ["macros", "rt-multi-thread"], default-features = false }
 parking_lot = "0.11"
 
